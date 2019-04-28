@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/cPreview">
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true">
+        <Button
+            android:id="@+id/flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flash"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/frame"
+        android:background="@android:color/transparent">
+
+         <View
+             android:id="@+id/scan"
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_centerInParent="true"/>
+
+        <!-- Top horizzontal lines -->
+        <View
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentLeft="true" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentRight="true" />
+
+        <!-- Top vertical lines -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentLeft="true" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentRight="true" />
+
+        <!-- Bottom horizzontal lines -->
+        <View
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentLeft="true" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentRight="true" />
+
+        <!-- Bottom vertical lines -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentLeft="true" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCam"
+            android:textSize="15sp"
+            android:text="Take Photo"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSwitch"
+            android:layout_marginLeft="0dp"
+            android:textSize="15sp"
+            android:text="Switch Camera"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

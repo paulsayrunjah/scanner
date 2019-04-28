@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "208352232882",
+    "firebase_url": "https://gmsa-8d1f3.firebaseio.com",
+    "project_id": "gmsa-8d1f3",
+    "storage_bucket": "gmsa-8d1f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208352232882:android:47054a2dc8f375b8",
+        "android_client_info": {
+          "package_name": "com.sayrunjah.gmsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208352232882-dc6sen49udapghliabdfbf00eabgkgjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWoQEWhIWiAxXKwlI0z25iEstMOHPQEIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208352232882-dc6sen49udapghliabdfbf00eabgkgjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208352232882:android:61990832bc7ad80f",
+        "android_client_info": {
+          "package_name": "com.sayrunjah.scanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208352232882-dc6sen49udapghliabdfbf00eabgkgjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWoQEWhIWiAxXKwlI0z25iEstMOHPQEIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208352232882-dc6sen49udapghliabdfbf00eabgkgjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
